@@ -14,5 +14,7 @@ constructor(private http: HttpClient) {
  }
  getData() {
   return this.http.get(this.apiurl);
+
+  //sd
 }
 }
