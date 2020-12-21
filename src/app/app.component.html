@@ -1,0 +1,36 @@
+<app-test></app-test>
+
+<app-test2></app-test2>
+
+
+<select (change)="myFunction($event)"> 
+
+    <option *ngFor = "let I of months">{{I}}</option>
+</select>
+
+
+<span  *ngIf = "isavailable; then condition1 else condition2">
+    Condition is valid.
+ </span> 
+ <ng-template #condition1>Condition is valid</ng-template> 
+ <ng-template #condition2>Condition is invalid</ng-template> 
+
+ <div *ngIf ="isavailable" >
+    Condition is valid
+ </div>
+
+ <div *ngIf ="!isavailable" >
+    Condition is invalid
+ </div>
+
+
+ <button class="blue" (click) = "myClickFunction($event)">
+    Click Me
+ </button>
+
+<div>
+    
+</div>
+ <button class="blue" (click) = "myClickFunction($event)">
+    Click Me
+ </button>
