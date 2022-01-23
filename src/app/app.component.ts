@@ -8,6 +8,7 @@ import { GetdataService } from './serices/getdata.service';
 })
 export class AppComponent {
   title = 'AngularBasics';
+  title2 = 'AngularBasics2';
 constructor(private myservice:GetdataService){
 
 }
